@@ -1,4 +1,3 @@
-'''
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -10,4 +9,3 @@ def browser():
     yield browser
     print("\nquit browser..")
     browser.quit()
-'''
